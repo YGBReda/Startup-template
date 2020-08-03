@@ -1,7 +1,7 @@
 ## Multipurpose HTML & LARAVEL Template
 ### A live demo:
 
-www.redayagoub.com
+https://startup.redayagoub.com/
 
 ### Contact :
 Email : ygb.reda@gmail.com
