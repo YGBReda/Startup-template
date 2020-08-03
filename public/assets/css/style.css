@@ -1,0 +1,645 @@
+html, body {
+  height: 100%;
+  font-family: 'Mulish', sans-serif !important;
+  background: #eef2f6;
+  
+  color: #626262;
+}
+ 
+a{
+  font-family: 'Mulish', sans-serif !important;
+}
+a:hover{
+text-decoration: none !important;
+color: #fff;
+}
+
+#menu {
+      background: transparent;
+      margin-top: 40px !important;
+}
+
+#menu li a{
+  font-size: 15px;
+    font-weight: bold;
+    color: #333;
+     font-family: 'Mulish', sans-serif !important;
+}
+
+#menu button {
+      border: none;
+    background: #ffbd04;
+    padding: 13px 67px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#slider{
+  min-height: 700px;
+   font-family: 'Mulish', sans-serif !important;
+}
+
+#slider img{
+  width: auto;
+    height: 700px;
+    float: right;
+    margin-top: 65px;
+}
+
+#slider .uk-card-title{
+  font-size: 34px;
+    margin-top: 104px;
+     font-family: 'Mulish', sans-serif !important;
+}
+
+#slider .uk-card-title span{
+font-weight: bold;
+color: #ffbd04;
+  }
+
+#slider p{
+  font-size: 15px;
+    width: 460px;
+    color: #333;
+}
+
+.slider-btn{
+  background: #ffbd04;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.skill{
+  background-image: url(/images/skill1.png);
+    background-repeat: no-repeat;
+        background-color: #651ed8;
+    background-position: top;
+    background-position-y: -8px;
+    min-height: 700px;
+        padding-top: 27px;
+}
+
+.skill .uk-card{
+      text-align: center;
+}
+
+.skill .uk-card-default .uk-card-title {
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.skill .uk-card-default p {
+    color: #333;
+    font-size: 15px;
+
+}
+
+.presentation {
+      padding: 45px;
+      color: #fff;
+}
+
+.presentation h1{
+          font-size: 38px;
+    color: #fff;
+    text-align: center;
+
+    margin: 68px 0;
+}
+
+.presentation .uk-card .uk-card-title {
+   color: #fff;
+  font-weight: normal;
+    font-size: 27px;
+    text-align: left;
+}
+
+.presentation .uk-card p {
+   color: #fff;
+  font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+
+progress::-webkit-progress-value {
+  background: #ffbd04 !important;
+}
+progress::-moz-progress-value {
+  background: #ffbd04 !important;
+}
+
+progress::progress-value {
+  background: #ffbd04 !important;
+}
+
+#chart{
+      padding: 40px;
+}
+
+.clients{
+  min-height: 700px;
+  background-color: #fff;
+        padding-top: 40px;
+        padding-bottom: 60px;
+}
+
+.clients-content{
+    background-image: url(/images/testmonial-back.png);
+    background-repeat: no-repeat;
+     min-height: 500px;
+    background-size: cover;   
+     padding: 40px 0;
+}
+
+.clients h1{
+  text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+margin: 5px;
+}
+
+.sub-title{
+  font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.clients-content .uk-card-media-top{
+      width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.clients-content .uk-card-media-top img{
+      width: 200px;
+    height: 200px;
+}
+
+.clients-content .uk-card-title {
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.clients-content .uk-card-body p{
+      text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
+
+.clients-content  .uk-dotnav>*>*{
+       width: 27px;
+    height: 12px;
+    border-radius: 18px;
+}
+
+.clients-content .uk-dotnav>.uk-active>* {
+    background-color: rgb(255 189 4);
+    border-color: transparent;
+}
+
+.stat{
+  min-height: 300px;
+  background-color: #651ed8;
+}
+
+.stat .uk-card-default .uk-card-title {
+    color: #333;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stat .uk-card-body p {
+    color: #676767;
+    font-size: 20px;
+   
+    text-align: center;
+}
+.stat .uk-card-body{
+  text-align: center;
+}
+.stat .uk-card-body img{
+      width: 75px;
+    height: 60px;
+}
+
+.stat-cont{
+      margin-top: -55px;
+}
+
+.pricing{
+  min-height: 700px;
+   font-family: 'Mulish', sans-serif !important;
+   padding: 40px 0;
+
+}
+
+.pricing h1{
+       text-align: center;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 5px 5px 47px 5px;
+    color: #651ed8;
+}
+
+.pricing-sub{
+      font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.pricing .uk-card {
+  text-align: center;
+    box-shadow: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+        padding: 75px 40px;
+}
+.pricing .last{
+  text-align: center;
+    box-shadow: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+}
+.pricing .uk-card-default .uk-card-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+        text-align: center;
+}
+.dollar{
+      font-size: 25px;
+    margin-right: 10px;
+}
+
+.month{
+  color: #666666;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.pricing ul li{
+  color: #666666;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.price-btn{
+  margin-top: 20px;
+    background-color: #651ed8;
+    color: #fff;
+    padding: 5px 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.pricing .uk-grid>* {
+    padding-left: 0;
+}
+
+
+.square, .squarepro{
+  height: 40px;
+  width: 100%;
+}
+
+.squarepro{
+  background-color: #651ed8;
+  border:none;
+}
+
+
+.pro{
+    color: #fff;
+    border: none !important;
+    background: #651ed8;
+}
+
+.pro ul li{
+    color: #fff;
+
+}
+
+.pro .price-btn{
+  background-color: #fff;
+  color: #651ed8;
+}
+
+.pro .month{
+  color :#fff;
+}
+
+.pro .dollar{
+  color :#fff;
+}
+
+.pro .uk-card-title{
+  color :#fff !important;
+  font-size: 20px;
+    font-weight: bold;
+        text-align: center;
+            padding: 1px;
+}
+
+.pro .pricing-sub{
+  color:#fff;
+}
+.pro h1{
+  color :#fff;
+}
+.pro .uk-list-divider>li:nth-child(n+2) {
+
+    border-top: 1px solid #591bbb;
+}
+
+.contactus{
+  min-height: 700px;
+  background-color: #651ed8;
+  color: #fff;
+  padding: 90px 0;
+    background-image: url(/images/skill1.png);
+    background-repeat: no-repeat;
+        background-color: #651ed8;
+    background-position: top;
+    background-position-y: -8px;
+      min-height: 700px;
+   font-family: 'Mulish', sans-serif !important;
+}
+
+.contactus h1{
+       text-align: center;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 5px 5px 47px 5px;
+    color: #fff;
+}
+
+.contact-sub{
+      font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 7px;
+
+}
+
+.contact-form input{
+      max-width: 585px !important;
+    border: none !important;
+    border-radius: 3px !important;
+}
+
+.contact-form textarea{
+  max-width: 1190px
+  border: none !important;
+    border-radius: 3px !important;
+}
+
+.contact-form button{
+      background: #fff;
+    padding: 5px 47px;
+    color: #651ed8;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.maps {
+  position: relative;
+  height: 453px;
+}
+
+.address{
+  
+   font-family: 'Mulish', sans-serif !important;
+     max-width: 310px;
+    background: #fff;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 395px;
+}
+.address h4{
+  font-weight: bold;
+
+   font-family: 'Mulish', sans-serif !important;
+}
+
+.maps-btn{
+  margin-top: 20px;
+    background-color: #651ed8;
+    color: #fff;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.footer{
+ 
+  background-color: #e1e1e1;
+  padding: 50px 0 0 0;
+}
+
+.footer .uk-navbar-item{
+      justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.footer .uk-icon-button {
+
+    background: #651ed8;
+    color: #fff;
+
+}
+
+.footer h4{
+     font-size: 18px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.footer input{
+         max-width: 64%;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 22px;
+}
+
+.footer button{
+      background: #651ed8;
+    border: none;
+    color: #fff;
+    margin-top: 0 !important;
+    margin-left: -22px;
+    border-radius: 0px 20px 20px 0;
+        padding: 1px 21px;
+}
+.footer button:hover{
+      background: #651ed8;
+    border: none;
+    color: #fff;
+}
+
+#copyright{
+      height: 59px;
+    line-height: 50px;
+    margin-top: 40px;
+        text-align: center;
+}
+
+#copyright a{
+  color:#651ed8;
+}
+
+.menu-top-btn{
+  display: none;
+      background: none !important;
+    padding: 21px !important;
+}
+
+.menu-top-btn i{
+  font-size: 32px;
+    color: #ffbd04;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.menu-top-nav{
+  display: none;
+}
+
+.menu-top-btn{
+  display: block;
+
+}
+#slider img {
+    width: auto;
+    height: 420px;
+}
+#slider {
+    min-height: 555px;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+#slider p {
+
+    width: 330px;
+  
+}
+
+.footer-content{
+  text-align: center;
+}
+.footer .uk-navbar-item{
+      justify-content: center;
+
+}
+
+
+.pricing .uk-card{
+  border-right: 1px solid #ddd;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+#slider .uk-card-media-right{
+     text-align: center !important;
+
+}
+#slider img {
+    float: none;
+    height: auto;
+}
+#slider .uk-card-title {
+  margin-top: 20px;
+}
+
+.pricing .uk-grid>* {
+  padding-left: 15px;
+}
+
+.QUOTES{
+  display: none;
+}
+.menu-top-btn {
+
+    padding: 10px !important;
+}
+
+
+#slider .uk-card-body {
+    padding: 10px;
+}
+
+
+.presentation h1 {
+    font-size: 22px;
+
+    margin: 15px 0;
+}
+
+.presentation {
+    padding: 45px 0;
+
+}
+
+.skill .uk-card-body {
+  padding:30px  10px; 
+}
+
+#chart {
+    padding: 0px !important;
+}
+
+.clients-content .uk-slider-items li {
+  width: 100%;
+}
+
+.maps {
+
+    height: auto;
+}
+
+.address{
+  position: relative;
+  left: 0;
+      text-align: center;
+    padding: 47px 15px;
+        max-width: 100%;
+}
+
+.maps-btn {
+    margin-top: 0px;
+}
+
+.footer ul li {
+  font-size: 15px;
+}
+
+#copyright {
+    font-size: 12px;
+}
+.footer input {
+    max-width: 60%;
+  }
+
+}
