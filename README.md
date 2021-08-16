@@ -1,7 +1,7 @@
 ## Multipurpose HTML & LARAVEL Template
-### A live demo:
+### Screenshots:
 
-https://startup.redayagoub.com/
+<img src="https://www.hqtemplate.com/images/items/file5f4b5412e702b2-DZStartup.png"/>
 
 ### Contact :
 Email : ygb.reda@gmail.com
